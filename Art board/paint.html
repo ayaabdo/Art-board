@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="paint.css">
+</head>
+<body>
+
+    <button id="pen"  class="btn" ><img src="pen.png" /></button>
+    <button id="line"  class="btn" ><img src="line.png" /></button>
+    <button id="rec"  class="btn" ><img src="rec.png" /></button>
+    <button id="circle"class="btn" ><img src="cir.png" /></button>
+    <button id="eraser"class="btn" ><img src="eraser.jfif" /></button><br>
+    <div id='div1' style="position:absolute; top:80px; left:400px; z-index:2">
+        <canvas id='convas' width='1000' height='500'>
+             
+        </canvas>
+    </div>
+    <br>
+    <label for="color" class="c">Fill style</label><br>
+    <input type="color" id="fill" class="c">
+    <br><br>
+    <label for="color" class="c">Stoke style</label><br>
+    <input type="color" id="stroke" class="c">
+    <br>
+
+
+    <script src="paint.js" ></script>
+</body>
+</html>
